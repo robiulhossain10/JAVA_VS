@@ -12,5 +12,13 @@ public class DaySecMin {
         int Seconds = ((sec % Daysec) % 3600) % 60;
 
         System.out.println(" Seconds = "+ Seconds+" Minutes = "+minutes+" Hour = "+ hours +" Day = "+ day);
+
+        int a = 15;
+        int b = 25;
+
+        System.out.println(a++);// post increament 
+        System.out.println(++a);// pre increament
+        System.out.println(b--); // post decreament
+        System.out.println(--b); //pre decreament
     }
 }
