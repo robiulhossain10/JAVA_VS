@@ -1,6 +1,6 @@
 public class MyApp{
 
- 
+   
      public static void main(String[] args) {
         byte b = 127;
         Byte b2 = 80;
