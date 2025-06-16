@@ -46,7 +46,11 @@ public class Mathpow {
         String[] words = as.split(" ");
         System.out.println("Words = " + Arrays.toString(words));
 
-        
+        for(int i = 0; i < words.length; i++){
+            System.out.println(i + " words: " + words[i]);
+        }
+
+
             
     }
 }
